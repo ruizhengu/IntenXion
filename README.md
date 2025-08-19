@@ -16,7 +16,7 @@ How to test Unity projects with Unity Test Framework: [Testing your code](https:
 2. Set the assembly to support Play mode tests.
 3. Add necessary Assembly Definition References (dependencies of the tests).
 
-![Assembly Definition References](./figure/assembly_definition_references.png)
+<img src="./figure/assembly_definition_references.png" width="300">
 
 4. Alternatively, copy the `/IntenXion/lib/Tests.asmdef` to the `/Assets/Tests` folder of the Unity XR project under test.
 
@@ -30,6 +30,8 @@ How to test Unity projects with Unity Test Framework: [Testing your code](https:
 1. In Unity Editor, open **Window > General > Test Runner**.
 2. Select **PlayMode** in the **Test Runner**.
 3. Find the test case(s) you would like to execute, double click it or click **Run Selected test(s)**.
+
+<img src="./figure/test_runner.png" alt="Test Runner" width="300" />
 
 * Currently, the Test Runner only supports executing one single test case, running multiple tests in one execution will cause errors. The issue is reported to Unity to be resolved. Unity Issue Link: [IN-111168](https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-111168).
 
