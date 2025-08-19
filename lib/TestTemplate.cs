@@ -14,7 +14,7 @@ using static XRintTestLib.TestLib;
 
 namespace XRintTestLib
 {
-    public class TestPlay01
+    public class TestTemplate
     {
 
         GameObject origin;
