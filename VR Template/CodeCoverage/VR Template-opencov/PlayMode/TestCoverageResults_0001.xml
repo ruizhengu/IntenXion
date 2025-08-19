@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.0.0.0">
+  <Summary numSequencePoints="39" visitedSequencePoints="35" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="89.74" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="3" numClasses="3" visitedMethods="6" numMethods="6" />
+  <Modules>
+    <Module>
+      <Summary numSequencePoints="39" visitedSequencePoints="35" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="89.74" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="3" numClasses="3" visitedMethods="6" numMethods="6" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Assembly-CSharp</ModuleName>
+      <Files>
+        <File uid="1" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/Scripts/RandomBaseline.cs" />
+        <File uid="2" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/Scripts/SceneConfigurator.cs" />
+        <File uid="3" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/Scripts/XRIntTest.cs" />
+        <File uid="4" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/Scripts/XUIGraphGenerator.cs" />
+        <File uid="5" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/AnchorVisuals.cs" />
+        <File uid="6" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/BezierCurve.cs" />
+        <File uid="7" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/BooleanToggleVisualsController.cs" />
+        <File uid="8" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/Callout.cs" />
+        <File uid="9" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/CalloutGazeController.cs" />
+        <File uid="10" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/DestroyObject.cs" />
+        <File uid="11" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/HandSubsystemManager.cs" />
+        <File uid="12" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/LaunchProjectile.cs" />
+        <File uid="13" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/PermissionsManager.cs" />
+        <File uid="14" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/RayAttachModifier.cs" />
+        <File uid="15" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/Rotator.cs" />
+        <File uid="16" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/StepManager.cs" />
+        <File uid="17" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs" />
+        <File uid="18" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/VideoTimeScrubControl.cs" />
+        <File uid="19" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/XRKnob.cs" />
+        <File uid="20" fullPath="/Users/ruizhengu/Projects/XRintTest/VR Template/Assets/VRTemplateAssets/Scripts/XRPokeFollowAffordanceFill.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>RandomBaseline</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>RandomBaseline::RandomBaseline()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1166" ordinal="0" offset="0" sl="18" sc="5" el="18" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1167" ordinal="0" offset="11" sl="19" sc="5" el="19" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1168" ordinal="0" offset="22" sl="22" sc="5" el="22" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1169" ordinal="0" offset="29" sl="23" sc="5" el="23" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1170" ordinal="0" offset="40" sl="24" sc="5" el="24" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1171" ordinal="0" offset="51" sl="25" sc="5" el="25" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1172" ordinal="0" offset="62" sl="28" sc="5" el="28" ec="5" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="1173" ordinal="0" offset="73" sl="30" sc="5" el="30" ec="5" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>XRIntTest</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>XRIntTest::XRIntTest()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1447" ordinal="0" offset="0" sl="20" sc="5" el="20" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1448" ordinal="0" offset="11" sl="22" sc="5" el="22" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1449" ordinal="0" offset="22" sl="23" sc="5" el="23" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1450" ordinal="0" offset="33" sl="24" sc="5" el="24" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1451" ordinal="0" offset="44" sl="26" sc="5" el="26" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1452" ordinal="0" offset="55" sl="27" sc="5" el="27" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1453" ordinal="0" offset="66" sl="28" sc="5" el="28" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1454" ordinal="0" offset="77" sl="33" sc="5" el="33" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1455" ordinal="0" offset="88" sl="37" sc="5" el="37" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1456" ordinal="0" offset="99" sl="40" sc="5" el="40" ec="5" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="1457" ordinal="0" offset="110" sl="41" sc="5" el="41" ec="5" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="20" visitedSequencePoints="16" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="80.00" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>Unity.VRTemplate.XRKnob</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="66.67" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663446</MetadataToken>
+              <Name>System.Void Unity.VRTemplate.XRKnob::SetKnobRotation(System.Single)</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1946" ordinal="0" offset="0" sl="348" sc="13" el="348" ec="13" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="1947" ordinal="0" offset="13" sl="350" sc="17" el="350" ec="17" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="1948" ordinal="0" offset="21" sl="351" sc="17" el="351" ec="17" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1949" ordinal="0" offset="49" sl="354" sc="13" el="354" ec="13" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1950" ordinal="0" offset="63" sl="355" sc="17" el="355" ec="17" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1951" ordinal="0" offset="90" sl="356" sc="9" el="356" ec="9" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663448</MetadataToken>
+              <Name>System.Single Unity.VRTemplate.XRKnob::ValueToRotation()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1962" ordinal="0" offset="0" sl="377" sc="13" el="377" ec="13" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="66.67" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663452</MetadataToken>
+              <Name>System.Void Unity.VRTemplate.XRKnob::OnValidate()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1987" ordinal="0" offset="0" sl="432" sc="13" el="432" ec="13" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="1988" ordinal="0" offset="8" sl="433" sc="17" el="433" ec="17" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1989" ordinal="0" offset="25" sl="435" sc="13" el="435" ec="13" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="0" uspid="1990" ordinal="0" offset="39" sl="436" sc="17" el="436" ec="17" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1991" ordinal="0" offset="51" sl="438" sc="13" el="438" ec="13" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1992" ordinal="0" offset="63" sl="439" sc="9" el="439" ec="9" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663453</MetadataToken>
+              <Name>Unity.VRTemplate.XRKnob::XRKnob()</Name>
+              <FileRef uid="19" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1993" ordinal="0" offset="0" sl="99" sc="9" el="99" ec="9" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1994" ordinal="0" offset="11" sl="103" sc="9" el="103" ec="9" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1995" ordinal="0" offset="18" sl="107" sc="9" el="107" ec="9" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1996" ordinal="0" offset="29" sl="111" sc="9" el="111" ec="9" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1997" ordinal="0" offset="40" sl="119" sc="9" el="119" ec="9" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1998" ordinal="0" offset="51" sl="123" sc="9" el="123" ec="9" bec="0" bev="0" fileid="19" />
+                <SequencePoint vc="2" uspid="1999" ordinal="0" offset="62" sl="127" sc="9" el="127" ec="9" bec="0" bev="0" fileid="19" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>30/07/2025 - 10:32:03</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>1</Assemblies>
+    <Classes>20</Classes>
+    <Files>20</Files>
+    <Coveredlines>35</Coveredlines>
+    <Uncoveredlines>1019</Uncoveredlines>
+    <Coverablelines>1054</Coverablelines>
+    <Totallines>2912</Totallines>
+    <Linecoverage>3.3</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>6</Coveredmethods>
+    <Totalmethods>168</Totalmethods>
+    <Methodcoverage>3.5</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="Assembly-CSharp" classes="20" coverage="3.3" coveredlines="35" coverablelines="1054" totallines="2912" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="168" methodcoverage="3.5">
+      <Class name="RandomBaseline" coverage="6.4" coveredlines="8" coverablelines="124" totallines="283" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="12" methodcoverage="8.3" />
+      <Class name="SceneConfigurator" coverage="0" coveredlines="0" coverablelines="66" totallines="156" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.AnchorVisuals" coverage="0" coveredlines="0" coverablelines="37" totallines="108" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.BezierCurve" coverage="0" coveredlines="0" coverablelines="71" totallines="202" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="9" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.BooleanToggleVisualsController" coverage="0" coveredlines="0" coverablelines="27" totallines="91" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="8" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.Callout" coverage="0" coveredlines="0" coverablelines="40" totallines="99" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="8" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.CalloutGazeController" coverage="0" coveredlines="0" coverablelines="28" totallines="80" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.DestroyObject" coverage="0" coveredlines="0" coverablelines="3" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.HandSubsystemManager" coverage="0" coveredlines="0" coverablelines="21" totallines="75" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.LaunchProjectile" coverage="0" coveredlines="0" coverablelines="8" totallines="36" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.PermissionsManager" coverage="0" coveredlines="0" coverablelines="23" totallines="122" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.RayAttachModifier" coverage="0" coveredlines="0" coverablelines="15" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.Rotator" coverage="0" coveredlines="0" coverablelines="2" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.StepManager" coverage="0" coveredlines="0" coverablelines="6" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.VideoPlayerRenderTexture" coverage="0" coveredlines="0" coverablelines="9" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.VideoTimeScrubControl" coverage="0" coveredlines="0" coverablelines="70" totallines="192" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="13" methodcoverage="0" />
+      <Class name="Unity.VRTemplate.XRKnob" coverage="10.4" coveredlines="16" coverablelines="153" totallines="441" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="33" methodcoverage="12.1" />
+      <Class name="Unity.VRTemplate.XRPokeFollowAffordanceFill" coverage="0" coveredlines="0" coverablelines="66" totallines="246" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="24" methodcoverage="0" />
+      <Class name="XRIntTest" coverage="4.5" coveredlines="11" coverablelines="240" totallines="504" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="21" methodcoverage="4.7" />
+      <Class name="XUIGraphGenerator" coverage="0" coveredlines="0" coverablelines="45" totallines="116" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>
