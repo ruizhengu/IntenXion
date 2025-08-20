@@ -25,6 +25,36 @@ How to test Unity projects with Unity Test Framework: [Testing your code](https:
 1. Copy the `.cs` files in the `/IntenXion/lib` to the `/Assets/Tests` folder.
 2. Follow the templates provided by `TestTemplate.cs` to develop your test cases.
 
+```c#
+// Template TestGrabCube: grab a cube and move it and confirm it is moved
+[UnityTest] // Ensure use a [UnityTest] attribute
+public IEnumerator TestGrabCube()
+{
+    var cubeObj = FindXRObject("Cube Interactable"); // Find the target object
+    var cubePosition = cubeObj.transform.position;
+    Assert.IsNotNull(cubeObj, "Cube Interactable not found in the scene.");
+    // 1. Navigate origin to Cube Interactable
+    yield return new ActionBuilder()
+            .NavigateTo(origin, cubeObj)
+            .Execute();
+    // 2. Move controller to Cube Interactable
+    yield return new ActionBuilder()
+            .MoveControllerTo(rightController, cubeObj)
+            .Execute();
+    // 3. Grab the cube and move it using ActionBuilder pattern
+    var action = new ActionBuilder();
+    action.GrabHold(1.0f)
+          .MoveUp(0.5f)
+          .ReleaseAllKeys();
+    yield return action.Execute();
+  	// Assertion: confirm the cube is grabbed
+    AssertGrabbed(cubeObj, "Cube should have been grabbed");
+    // Assertion: confirm the cube is moved
+    AssertTranslated(cubeObj, cubePosition, "Cube should have been moved");
+    yield return new WaitForSeconds(1.0f);
+}
+```
+
 ### Exeute test cases
 
 1. In Unity Editor, open **Window > General > Test Runner**.
@@ -42,8 +72,11 @@ How to test Unity projects with Unity Test Framework: [Testing your code](https:
 ```c#
 // Create an action sequence with ActionBuilder
 var action = new ActionBuilder(this);
-action.GrabHold(1.0f)
-      .MoveUp(0.5f);
+// Add action GrabHold (holding grab for 1 second) to the ActionBuilder
+action.GrabHold(1.0f) 
+// Add action MoveUp (moving upward for 0.5 second) to the ActionBuilder
+      .MoveUp(0.5f); 
+// Execute the actions constructed with the ActionBuilder
 yield return action.Execute();
 ```
 

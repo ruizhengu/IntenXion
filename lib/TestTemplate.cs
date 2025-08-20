@@ -43,12 +43,10 @@ namespace XRintTestLib
             var cubePosition = cubeObj.transform.position;
             Assert.IsNotNull(cubeObj, "Cube Interactable not found in the scene.");
             // 1. Navigate origin to Cube Interactable
-            // yield return NavigateToObject(origin, cubeObj);
             yield return new ActionBuilder()
                     .NavigateTo(origin, cubeObj)
                     .Execute();
             // 2. Move controller to Cube Interactable
-            // yield return MoveControllerToObject(rightController, cubeObj);
             yield return new ActionBuilder()
                     .MoveControllerTo(rightController, cubeObj)
                     .Execute();
